@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdo Alexandria Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Abdo Alexandria Restaurant</h1>
+    <p>Authentic Egyptian Cuisine | Modern Twist</p>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <img src="https://images.unsplash.com/photo-1600891964093-42d5891f3f5e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Restaurant Interior">
+    <h2>Welcome to Abdo Alexandria Restaurant</h2>
+    <p>Experience the finest flavors of Alexandria with our fresh and delicious dishes.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Abdo Alexandria Restaurant is located in the heart of Alexandria.  
+      We serve authentic Egyptian dishes with a modern twist. Our chefs ensure every dish is fresh and flavorful.
+    </p>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Grilled Fish">
+        <h3>Grilled Fish</h3>
+        <p>Fresh Mediterranean fish with herbs. Price: $15</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1617196033383-6f24eec5d7c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Koshary">
+        <h3>Koshary</h3>
+        <p>Traditional Egyptian dish. Price: $7</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1617191518003-3c9a503d17b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Falafel">
+        <h3>Falafel</h3>
+        <p>Crispy and flavorful. Price: $5</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1614903608566-74ef2f2f3d82?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Baklava">
+        <h3>Baklava</h3>
+        <p>Sweet and crunchy. Price: $4</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1590080874666-5b8c9d9df539?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Knafeh">
+        <h3>Knafeh</h3>
+        <p>Traditional sweet cheese dessert. Price: $5</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1572289581420-620e286b211c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Mint Lemonade">
+        <h3>Mint Lemonade</h3>
+        <p>Refreshing drink. Price: $3</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1600185360555-d9d8e776a3c6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Egyptian Tea">
+        <h3>Egyptian Tea</h3>
+        <p>Traditional tea. Price: $2</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Address: 123 Corniche Road, Alexandria, Egypt</p>
+    <p>📞 Phone: +20 123 456 7890</p>
+    <p>📧 Email: info@abdoalexrestaurant.com</p>
+    <button onclick="alert('Thank you for contacting us!')">Send Message</button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Abdo Alexandria Restaurant. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
